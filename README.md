@@ -1,5 +1,14 @@
 # Lambda Elixir Docker image
 
+Recommended usage as part of a multi-stage Docker build.
+
+Example: https://github.com/solid8tion/hnkeywords/blob/master/Dockerfile
+
+## Public Repo
+
+* https://gallery.ecr.aws/p2t7j0q6/lambda-elixir
+
+
 ## Build
 ```
 docker build -t lambda-elixir .
