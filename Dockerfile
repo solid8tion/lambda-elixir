@@ -1,5 +1,5 @@
 ARG container=public.ecr.aws/lambda/provided:al2.2023.02.28.13
-FROM ${container}
+FROM ${container} AS base
 
 ENV LANG C.UTF-8
 ENV ERLANG_VERSION OTP-25.2.3
@@ -20,5 +20,3 @@ RUN yum -y groupinstall "Development Tools" && \
   cd elixir && \
   make && \
   make install
-
-RUN yum -y install sqlite
