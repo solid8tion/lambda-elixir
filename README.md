@@ -21,4 +21,6 @@ docker push $repositoryUri
 ## References
 
 * https://docs.aws.amazon.com/AmazonECR/latest/public/getting-started-cli.html
+* https://docs.aws.amazon.com/AmazonECR/latest/public/public-repository-catalog-data.html
 * https://renehernandez.io/snippets/cleaning-local-docker-cache/
+* https://docs.docker.com/engine/reference/commandline/builder_prune/
