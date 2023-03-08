@@ -1,11 +1,11 @@
 {
     "description": "This is a repo for a AWS Lambda images for Elixir apps",
     "architectures": [
-        "x86"
+        "x86-64"
     ],
     "operatingSystems": [
         "Linux"
     ],
-    "aboutText": "This repository is used for images to be used as AWS Lambda functions with Elixir apps.",
-    "usageText": "This repository can be used for public use."
+    "aboutText": "This repository is for images to be used to build and package Elixir apps for AWS Lambda deployment.",
+    "usageText": "https://github.com/solid8tion/lambda-elixir"
 }
