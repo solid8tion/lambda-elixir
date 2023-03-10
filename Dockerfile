@@ -1,4 +1,4 @@
-ARG container=public.ecr.aws/lambda/provided:al2.2023.02.28.13
+ARG container=public.ecr.aws/lambda/provided:al2.2023.03.08.12
 FROM ${container} AS base
 
 ENV LANG C.UTF-8
